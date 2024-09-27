@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Nav from "./components/layouts/Nav";
-import Footer from "./components/layouts/footer";
+import Footer from "./components/layouts/Footer";
 
 import Contacto from "./pages/Contacto";
 import Inicio from "./pages/Inicio";
@@ -20,7 +20,9 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Inicio />} />
-          <Route path="SobreNosotros" element={<Inicio />} />
+          <Route path="/SobreNosotros" element={<SobreNosotros />} />
+          <Route path="/Novedades" element={<Novedades />} />
+          <Route path="/Contacto" element={<Contacto />} />
         </Routes>
       </BrowserRouter>
       <Footer />

@@ -1,10 +1,10 @@
 header {
-  background-color: #2e64;
+  background-color: rgba(8, 8, 8, 0.267);
   padding: 16px 0;
 }
 
 header h1 {
-  color: antiquewhite;
+  color: rgba(160, 39, 5, 0.426);
   font-size: 40px;
   font-weight: 100;
   font-style: italic;

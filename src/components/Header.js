@@ -1,3 +1,5 @@
+import "../styles/components/layouts/Header.css";
+
 const Header = (props) => {
   const logo = "images/images/logo.png";
   return (
