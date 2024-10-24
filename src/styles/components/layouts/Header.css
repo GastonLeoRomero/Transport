@@ -1,0 +1,15 @@
+header {
+  background-color: rgba(8, 8, 8, 0.267);
+  padding: 16px 0;
+}
+
+header h1 {
+  color: rgba(160, 39, 5, 0.426);
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
+  bottom: 35px;
+  margin-left: 10px;
+}
